@@ -4,7 +4,8 @@ body {
 }
 
 .panelDiv {
-    border: 5px;
-    background-color: blue;
+    width: 100px;
+    border: 5px outset red;
+    background-color: lightblue;
     text-align: left;
 }
