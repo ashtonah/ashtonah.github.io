@@ -2,3 +2,9 @@ body {
     text-align: center;
     background: #cccccc;
 }
+
+.panelDiv {
+    border: 5px;
+    background-color: blue;
+    text-align: left;
+}
