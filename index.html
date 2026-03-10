@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashton Harris</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1>Ashton Harris</h1>
-    <h2>aharriscreator1@comcast.net</h2>
-    <h3>BS in Computer Science | Math Minor | University of South Carolina - Columbia</h3>
+    <h1 style="font-family: 'Courier New', Courier, monospace;">Ashton Harris</h1>
+    <h2 style="font-family: 'Courier New', Courier, monospace;">aharriscreator1@comcast.net | <a href="https://github.com/ashtonah">github.com/ashtonah</a></h2>
+    <h3 style="font-family: 'Courier New', Courier, monospace;">BS in Computer Science | Math Minor | University of South Carolina - Columbia</h3>
 
-    
-    <div class="panelDiv">
-      <h2>Senior Capstone Project ~ <a href="https://github.com/SCCapstone/RoyalFlush">Royal Flush</a></h2>
-    
-      <p>A card based chess variant</p>
+    <h2 style="font-family: 'Courier New', Courier, monospace; font-size: 32px; margin-bottom: 0px;">Recent Projects:</h2>
+
+
+    <div class="switch">
+      <div id="top1" class="top" onclick="toggleBottom('bottom1')" onmouseenter="userHighlight('top1')" onmouseleave="userUnhighlight('top1')"><b>Senior Capstone Project ~ <a href="https://github.com/SCCapstone/RoyalFlush">Royal Flush</a></b></div>
+      <div id="bottom1" class="bottom">A card based chess variant</div>
     </div>
 
-    <div class="panelDiv">
-      <h2>CSCE 552 Project ~ <a href="aroquest3DFINAL.zip" download="Name">AroQuest: Fragments of the Sky</a></h2>
-    
-      <p>3D game made with Godot</p>
+    <div class="switch">
+      <div id="top2" class="top" onclick="toggleBottom('bottom2')" onmouseenter="userHighlight('top2')" onmouseleave="userUnhighlight('top2')"><b>CSCE 552 Project ~ <a href="https://github.com/abhinavk0714/csce552-3d-game">AroQuest: Fragments of the Sky</a></b></div>
+      <div id="bottom2" class="bottom">
+        <a href="aroquest3DFINAL.zip" download="Name">Game Download</a>
+        <p>3D game made with Godot.</p>
+      </div>
+    </div>
+
+    <div class="switch">
+      <div id="top3" class="top" onclick="toggleBottom('bottom3')" onmouseenter="userHighlight('top3')" onmouseleave="userUnhighlight('top3')"><b>CSCE 247 Project ~ <a href="https://github.com/paukba/seat_hermits_project">Pain is TEMPOrary</a></b></div>
+      <div id="bottom3" class="bottom">
+        <p>A guitar education program made in java.</p>
+      </div>
     </div>
     
   </body>
